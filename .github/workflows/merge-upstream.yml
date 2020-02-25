@@ -31,11 +31,11 @@ jobs:
 
     - name: Set git identity
       run : |
-        git config --global user.email "KFER.Mercer@gmail.com"
-        git config --global user.name "KFERMercer"
+        git config --global user.email "En_xujl@qq.com"
+        git config --global user.name "En_xujl"
 
     - name: Load upstream commits
-      run: git pull https://github.com/coolsnowwolf/lede.git --no-edit --strategy-option ours
+      run: git pull https://github.com/frainzy1477/luci-app-clash.git --no-edit --strategy-option ours
 
     - name: Push Commits
       env:
